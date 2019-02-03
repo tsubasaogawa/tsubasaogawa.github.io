@@ -1,0 +1,3 @@
+[submodule "aeon/jquery-aeon"]
+	path = aeon/jquery-aeon
+	url = git@github.com:tsubasaogawa/jquery.aeon.git
