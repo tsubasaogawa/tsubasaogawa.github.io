@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <title>AEON - OgaTube</title>
+    <meta name="author" content="Tsubasa Ogawa" />
+    <meta name="description" content="趣味を表現するための Web サイト。" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../bootsketch/build/css/bootsketch.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <style type="text/css">
+      table.rating { margin-top: 40px; width: 60%; }
+      #map-container { float: left; }
+      #map-container-legend { float: right; }
+      canvas {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./japan-map/jquery.japan-map.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./jquery-aeon/jquery.aeon.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?VW9BGZmHf1k%3D" charset="utf-8"></script>
+  </head>
+  <body>
+  <!-- そのうちイオンモールの電話番号と営業時間をモール専門店街に統一したい -->
+  <!--
+    The MIT License (MIT)
+    Copyright (c) 2014 Yann Gouffon
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+  -->
+
+    <header>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//ogatube.com/">OgaTube.com</a>
+          </div>
+
+          <!-- Collect the nav links -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../photos/">Photos</a></li>
+              <li><a href="https://weblog.ogatube.com/">Weblog</a></li>
+              <li><a href="../profile.html">Profile</a></li>
+              <li class="active"><a href="#">AEON</a></li>
+              <li><a href="../works/">Works</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <div class="topclear">&nbsp;</div>
+
+    <div class="container">
+      <h1>AEON</h1>
+      <p class="lead">My oasis</p>
+      <ol class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li class="active"><a href="#">AEON</a></li>
+      </ol>
+
+      <hr />
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#aeonmap">
+                Visited AEON Map
+              </a>
+            </h2>
+          </div>
+          <div id="aeonmap" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div id="map-container"></div>
+              <div id="map-container-legend">
+                <ul>
+                  <li><span style="color: #ff99a8">■</span>: great (8 times or above)</li>
+                  <li><span style="color: #fff099">■</span>: good (5 times or above)</li>
+                  <li><span style="color: #a8ff99">■</span>: fine (a few times)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <form name="filter_sort">
+          <h2>Options</h2>
+          Filter: 
+          <input type="radio" name="filter_type" id="filter_none" value="none" checked /><label for="filter_none"> None</label>
+          <input type="radio" name="filter_type" id="filter_region" value="region" /><label for="filter_region"> Region
+            <select id="filter_region" name="filter_region_name">
+              <option value="hokkaido">Hokkaido</option>
+              <option value="tohoku">Tohoku</option>
+              <option value="kanto">Kanto</option>
+              <option value="chubu">Chubu</option>
+              <option value="kinki">Kinki</option>
+              <option value="chugoku">Chugoku</option>
+              <option value="shikoku">Shikoku</option>
+              <option value="kyushu">Kyushu</option>
+              <option value="okinawa">Okinawa</option>
+            </select>
+          </label>
+          Sort By: 
+          <input type="radio" name="sort_type" id="sort_region" value="prefecture" /><label for="sort_region"> Region</label>
+          <input type="radio" name="sort_type" id="sort_favorite" value="ratings.favorite" /><label for="sort_favorite"> Favorite</label>
+          <input type="radio" name="sort_type" id="sort_visit" value="visit" checked /><label for="sort_visit"> Visit day</label>
+          <input type="checkbox" name="sort_option_desc" id="sort_option_desc" value="desc" /><label for="sort_option_desc"> Reverse</label>
+          <input type="button" name="execute" value="Filter/Sort" onClick="redraw_aeons(aeons)" />
+        </form>
+      </div>
+      <h2>Results</h2>
+      <div id="aeon-contents">&nbsp;</div>
+    </div>
+    <br /><br /><br />
+    <footer>
+      <div class="copyright">
+        <p><small>&copy; 2014-2018 Tsubasa Ogawa.</small></p>
+      </div>
+    </footer>
+    <script src="../bootsketch/build/js/vendors.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-55567267-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
+

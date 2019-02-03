@@ -1,3 +1,6 @@
 [submodule "aeon/jquery-aeon"]
 	path = aeon/jquery-aeon
 	url = git@github.com:tsubasaogawa/jquery.aeon.git
+[submodule "aeon/japan-map"]
+	path = aeon/japan-map
+	url = https://github.com/takemaru-hirai/japan-map.git
