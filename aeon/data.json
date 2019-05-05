@@ -1149,10 +1149,192 @@
         "favorite": "4"
       },
       "comments": [
-        "埼京線北与野駅から徒歩○○分",
+        "埼京線北与野駅から徒歩20分",
         "近隣のイオンモール北戸田間は車で20分程度しか距離がない",
         "食料品売場はトラディショナルなイオンが垣間見えるテイスト",
         "フードコートに電源はないが、隣接しているスタバやケンタッキーで代用できるので便利"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "AEON Omiya",
+      "location": "Kushibiki-cho, Kita-ku, Saitama City, Saitama",
+      "prefecture": 11,
+      "open": "7:00 to 23:00",
+      "tel": "048-665-3101",
+      "visit": "2018-06-30",
+      "url": "https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E5%A4%A7%E5%AE%AE%E5%BA%97/",
+      "ratings": {
+        "build_scale": "3",
+        "access": "4",
+        "food_court": "4",
+        "favorite": "5"
+      },
+      "comments": [
+        "大宮駅からバスで15分",
+        "イオンとしてはかなり大きい",
+        "フロアの端から見ると、もう一方の端が霞む",
+        "その規模を誇示するかのごとくイオンシネマが4階にある",
+        "フードコートはチェーン店が多いが生パスタ専門店の「一丁目」は初見",
+        "席数もイオンにしては十二分にあり、ゆったりと食事ができる",
+        "お気に入りのイオン"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "AEON BomBelta Narita",
+      "location": "Akasaka, Narita City, Chiba",
+      "prefecture": 12,
+      "open": "10:00 to 19:00 (1F - 4F)",
+      "tel": "0476-26-2111",
+      "visit": "2018-10-13",
+      "url": "http://www.bonbelta.co.jp/",
+      "ratings": {
+        "build_scale": "3",
+        "access": "3.5",
+        "food_court": "-",
+        "favorite": "3"
+      },
+      "comments": [
+        "JR/京成 成田駅から徒歩30分程度",
+        "成田花火大会会場への途中にある",
+        "2018年9月にリニューアルオープン、五階建てというなかなかの規模",
+        "ただしフードコートはなし",
+        "カフェや喫茶店が比較的多く、住宅街の中という立地上、奥様方の社交場としての役割を果たす"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "AEON Muroran",
+      "location": "Higashi-machi, Muroran City, Hokkaido",
+      "prefecture": 1,
+      "open": "8:00 to 21:00",
+      "tel": "0143-45-1414",
+      "visit": "2018-11-22",
+      "url": "https://www.aeon-hokkaido.jp/muroran/",
+      "ratings": {
+        "build_scale": "3.5",
+        "access": "3.5",
+        "food_court": "-",
+        "favorite": "3.5"
+      },
+      "comments": [
+        "室蘭駅から徒歩10分程度",
+        "横に長い。なかなかの規模",
+        "フードコートはなく、マックやラーメン屋などのレストランが数件",
+        "懐かしいテイストのゲームコーナーを完備",
+        "2023年以降にイオンモール化予定 https://www.hokkaido-np.co.jp/article/277228"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "AEON MALL Tomakomai",
+      "location": "Yanagi-cho, Tomakomai City, Hokkaido",
+      "prefecture": 1,
+      "open": "8:00 to 23:00",
+      "tel": "0144-51-3300",
+      "visit": "2018-11-22",
+      "url": "http://www.aeon.jp/sc/tomakomai/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "3",
+        "food_court": "3.5",
+        "favorite": "3.5"
+      },
+      "comments": [
+        "苫小牧駅と沼ノ端駅の中間にあるイオンモール。大きな道路沿いにあるので車のアクセスは容易",
+        "バスであれば新千歳空港ゆきの職訓センター通が最寄り",
+        "安心できる標準的なイオンモール",
+        "やけにフードコートには麺が多い。ラーメンx2、うどん、パスタ",
+        "パスタをいただいたがもちもち具合が美味しかった"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "AEON Takikawa",
+      "location": "Higaishi-machi, Takikawa City, Hokkaido",
+      "prefecture": 1,
+      "open": "8:00 to 21:00",
+      "tel": "0125-24-4711",
+      "visit": "2018-11-28",
+      "url": "https://www.aeon-hokkaido.jp/takikawa/",
+      "ratings": {
+        "build_scale": "3.5",
+        "access": "2",
+        "food_court": "3",
+        "favorite": "3.5"
+      },
+      "comments": [
+        "JR滝川駅から徒歩1時間程度。バスが現実的か",
+        "めちゃめちゃ横に長い。もはやイオンタウン。帰りのバス停がどこにあるかわからなかった",
+        "フードコートは一応あるが、お店はケンタッキーやミスドなどのおなじみチェーンのみ。席数は比較的多いので、放課後学生のたまり場"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "AEON MALL Choshi",
+      "location": "Misaki-cho, Choshi City, Chiba",
+      "prefecture": 12,
+      "open": "8:00 to 23:00",
+      "tel": "0479-20-0400",
+      "visit": "2019-02-11",
+      "url": "https://www.aeon.jp/sc/choshi/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "3",
+        "food_court": "3",
+        "favorite": "4"
+      },
+      "comments": [
+        "銚子駅から徒歩1時間。無料バスもあり。売り場は2Fまでだが、その分横に長い",
+        "銚子独自の催しである「鮮の市」がよい。地元の新鮮な食材を格安で買える。銚子民になりたい",
+        "フードコートはおなじみの顔ぶれ。窓から海が見えるのはさすが銚子"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "AEON MALL Takasaki",
+      "location": "Munadaka-machi, Takasaki City, Gunma",
+      "prefecture": 10,
+      "open": "8:00 to 23:00",
+      "tel": "027-310-9000",
+      "visit": "2019-05-01",
+      "url": "https://takasaki-aeonmall.com/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "3",
+        "food_court": "3.5",
+        "favorite": "3"
+      },
+      "comments": [
+        "群馬県に2店舗 (2019年現在) あるうちのひとつ",
+        "イオンモールとしては標準的な規模",
+        "GW なか日に行ったら超混雑。広い駐車場がほとんど埋まっていた",
+        "フードコートは席数こそ多いが、チェーン店勢揃いで独自性があまりない",
+        "2020年リニューアル予定。高崎店独自の色に期待"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "AEON MALL Ohta",
+      "location": "Ishihara-cho, Ohta City, Gunma",
+      "prefecture": 10,
+      "open": "8:00 to 23:00",
+      "tel": "0276-47-8700",
+      "visit": "2019-05-02",
+      "url": "https://ota-aeonmall.com/",
+      "ratings": {
+        "build_scale": "4.5",
+        "access": "3",
+        "food_court": "5",
+        "favorite": "5"
+      },
+      "comments": [
+        "東武伊勢崎線太田駅から徒歩30分ほど",
+        "群馬県に2店舗 (2019年現在) あるうちのひとつ。イオンモール高崎より広い",
+        "(個人的に、本屋の喜久屋の広さに感動)",
+        "フードコートも比較的広い。トンテキ（とん一）、そば（十兵衛）どちらもフードコートらしからぬクオリティて大満足",
+        "お気に入りのイオン"
       ]
     }
   ],
