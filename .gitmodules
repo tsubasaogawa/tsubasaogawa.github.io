@@ -3,4 +3,4 @@
 	url = https://github.com/takemaru-hirai/japan-map.git
 [submodule "aeon/jquery-aeon"]
 	path = aeon/jquery-aeon
-	url = https://github.com/tsubasaogawa/jquery.aeon.git
+	url = git@github.com:tsubasaogawa/jquery.aeon.git
