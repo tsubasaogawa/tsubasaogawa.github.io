@@ -1392,7 +1392,7 @@
       "prefecture": 1,
       "open": "8:00 to 21:45",
       "tel": "+81-157-66-3100",
-      "visit": "2019-08-21",
+      "visit": "2019-08-10",
       "url": "https://www.aeon-hokkaido.jp/aeon/shop/kitami/",
       "ratings": {
         "build_scale": "",
@@ -1401,7 +1401,7 @@
         "favorite": ""
       },
       "comments": [
-        "イオンシネマあり",
+        "イオンシネマあり"
       ]
     },
     {
@@ -1576,7 +1576,7 @@
         "favorite": "3"
       },
       "comments": [
-        "",
+        "忘れた"
       ]
     },
     {
@@ -1606,36 +1606,45 @@
     {
       "id": 74,
       "name": "AEON MALL Tonami",
-      "location": "",
-      "prefecture": ,
-      "open": "",
-      "tel": "",
+      "location": "Nakagami, Tonami City, Toyama",
+      "prefecture": 16,
+      "open": "9:00 to 23:00",
+      "tel": "+81-763-32-8800",
       "visit": "2022-09-18",
-      "url": "",
+      "url": "https://tonami-aeonmall.com/",
       "ratings": {
-        "build_scale": "4",
-        "access": "3",
+        "build_scale": "3",
+        "access": "4",
         "food_court": "3",
         "favorite": "3"
       },
-      "comments": []
+      "comments": [
+        "キッズ共和国が充実",
+        "フードコートはいたって普通。スパイス共和国が少し気になる"
+      ]
     },
     {
       "id": 75,
       "name": "AEON MALL Suzuka",
-      "location": "",
-      "prefecture": ,
-      "open": "",
-      "tel": "",
+      "location": "Shonohayama, Suzuka City, Mie",
+      "prefecture": 24,
+      "open": "9:00 to 23:00",
+      "tel": "+81-59-375-0666",
       "visit": "2022-10-23",
-      "url": "",
+      "url": "https://suzuka-aeonmall.com/",
       "ratings": {
         "build_scale": "4",
-        "access": "3",
+        "access": "4",
         "food_court": "3",
         "favorite": "3"
       },
-      "comments": []
+      "comments": [
+        "近鉄平田町駅から徒歩10分",
+        "名古屋の影響を受けたおみやげや飲食店。スガキヤもある",
+        "横に広いがテナントは二階までしか入っていない",
+        "三重で二番目に大きい。イオンシネマもあり",
+        "増築を繰り返しているためか複雑な構造をしている"
+      ]
     }
   ],
   "itoyokado": [
