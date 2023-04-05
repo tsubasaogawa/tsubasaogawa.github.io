@@ -254,14 +254,16 @@
       "visit": "2015-05-05",
       "url": "http://asahikawaekimae-aeonmall.com/",
       "ratings": {
-        "build_scale": "4.5",
+        "build_scale": "3",
         "access": "5.0",
-        "food_court": "-",
-        "favorite": "-"
+        "food_court": "4",
+        "favorite": "4"
       },
       "comments": [
-        "JR旭川駅直結",
-        "個人的な時間の都合でほとんど楽しめていない。次回に期待"
+        "jr旭川駅直結という唯一無二のイオンモール",
+        "その立地からか規模は小さめ。しかしイオンシネマがしっかりとある",
+        "フードコートは多くないが、旭川ラーメンやなぜか伝説のすた丼屋など個性的",
+        "食料品コーナーは広く帰宅時に便利"
       ]
     },
     {
@@ -817,8 +819,8 @@
         "本屋はおなじみの未来屋書店ではなく珍しい喜久屋書店"
       ]
     },
-	{
-	    "id": 39,
+    {
+      "id": 39,
       "name": "AEON MALL Narita",
       "location": "Wing tsuchiya, Narita City, Chiba",
       "prefecture": 12,
@@ -930,8 +932,8 @@
         "フードは小さめ。十割そばの店でそばを頼んだら本当に十割か? と思うほど香りが無かったがそんなところも愛おしくなる"
       ]
     },
-	{
-	  "id": 44,
+    {
+      "id": 44,
       "name": "AEON MALL Kawaguchi Maekawa",
       "location": "Maekawa, Kawaguchi City, Saitama",
       "prefecture": 11,
@@ -1335,6 +1337,313 @@
         "(個人的に、本屋の喜久屋の広さに感動)",
         "フードコートも比較的広い。トンテキ（とん一）、そば（十兵衛）どちらもフードコートらしからぬクオリティて大満足",
         "お気に入りのイオン"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "AEON Town Yukari-gaoka",
+      "location": "Yukari-gaoka, Sakura City, Chiba",
+      "prefecture": 12,
+      "open": "8:00 to 23:00",
+      "tel": "043-464-0700",
+      "visit": "2019-05-05",
+      "url": "https://www.aeontown.co.jp/yukarigaoka/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "4.5",
+        "food_court": "4.5",
+        "favorite": "4"
+      },
+      "comments": [
+        "京成線ユーカリが丘駅から徒歩10分程度。送迎バスもあり",
+        "最近できたようなモダンな外装",
+        "イオンタウンなのに、小さなイオンモール並みの広さを誇る",
+        "専門店はタウン感が強く出ており、雑貨やスポーツなど生活に根付いたお店が多い",
+        "フードもバリエーション豊か。フードコートにしては珍しくフレッシュネスがいる"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "AEON Shinagawa Seaside",
+      "location": "Higashi-shinagawa, Shinagawa-ku, Tokyo",
+      "prefecture": 13,
+      "open": "8:00 to 23:00",
+      "tel": "03-5715-8300",
+      "visit": "2019-05-26",
+      "url": "https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E5%93%81%E5%B7%9D%E3%82%B7%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89/",
+      "ratings": {
+        "build_scale": "3.5",
+        "access": "3",
+        "food_court": "3.5",
+        "favorite": "3"
+      },
+      "comments": [
+        "珍しい東京23区のイオン",
+        "予想に反してなかなかの規模",
+        "フードコートはチェーン中心だが、席数・店舗数ともに余裕がある",
+        "コンセプトとしてはイオンタウンに近い",
+        "23区にいることを忘れさせてくれるハイクオリティなイオン"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "AEON Kitami",
+      "location": "Hokushin-cho, Kitami City, Hokkaido",
+      "prefecture": 1,
+      "open": "8:00 to 21:45",
+      "tel": "+81-157-66-3100",
+      "visit": "2019-08-10",
+      "url": "https://www.aeon-hokkaido.jp/aeon/shop/kitami/",
+      "ratings": {
+        "build_scale": "",
+        "access": "",
+        "food_court": "",
+        "favorite": ""
+      },
+      "comments": [
+        "イオンシネマあり"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "AEON MALL Kasukabe",
+      "location": "Shimoyanagi, Kasukabe City, Saitama",
+      "prefecture": 11,
+      "open": "7:00 to 23:00",
+      "tel": "+81-48-718-3000",
+      "visit": "2019-12-07",
+      "url": "https://kasukabe-aeonmall.com/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "3",
+        "food_court": "4",
+        "favorite": "3"
+      },
+      "comments": [
+        "東武野田線 藤の牛島駅から徒歩15分程度",
+        "比較的モダンなモール",
+        "規模は平均的",
+        "フードコートはチェーンが多く、目新しさがあまりない",
+        "肉屋さんがその場で調理してくれる店はよかった"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "AEON MALL Mito Uchihara",
+      "location": "Uchihara, Mito City, Ibaraki",
+      "prefecture": 8,
+      "open": "8:00 to 23:00",
+      "tel": "+81-29-259-1000",
+      "visit": "2020-09-22",
+      "url": "https://mitouchihara-aeonmall.com/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "4",
+        "food_court": "4",
+        "favorite": "4"
+      },
+      "comments": [
+        "常磐線内原駅徒歩10分。郊外型にしては珍しく駅近モール",
+        "成田ニュータウンと同程度の敷地面積で、一日遊べる広さ",
+        "車椅子の方向けに駐車場から店舗までのスロープがあったりするのも成田ニュータウン譲りの仕様",
+        "そこまで混まないため落ち着いてモールを楽しむことができる",
+        "フードコートは目新しい店が少ない。一方で専門店は土佐料理の店が美味しかった",
+        "地産食材の販売所もあり、遠くから行く価値は十二分ある"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "AEON MALL Shibata",
+      "location": "Sumiyoshi-cho, Shibata City, Niigata",
+      "prefecture": 15,
+      "open": "7:00 to 23:00",
+      "tel": "+81-254-21-7500",
+      "visit": "2021-10-16",
+      "url": "https://www.aeon.jp/sc/shibata/",
+      "ratings": {
+        "build_scale": "3.5",
+        "access": "3",
+        "food_court": "3.5",
+        "favorite": "3"
+      },
+      "comments": [
+        "フードコートには新潟が誇るB級グルメのみかづきあり",
+        "比較的コンパクトなつくり",
+        "小さいながらも地域のニーズをしっかりと満たしたつくり"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "AEON Nemuro",
+      "location": "Tokiwa-cho, Nemuri City, Hokkaido",
+      "prefecture": 1,
+      "open": "9:00 to 21:00",
+      "tel": "+81-153-24-6111",
+      "visit": "2021-10-21",
+      "url": "https://www.aeon-hokkaido.jp/aeon/shop/nemuro/",
+      "ratings": {
+        "build_scale": "2",
+        "access": "3",
+        "food_court": "-",
+        "favorite": "3"
+      },
+      "comments": [
+        "日本最東端のイオン",
+        "地元民のスーパーとしての性格が強い",
+        "そのためフードコートはなし、商業フロアは一階と二階のみ",
+        "建物は古さが目立つが綺麗に保たれている",
+        "旅情を感じられる貴重なイオン"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "AEON Yachimata",
+      "location": "Hijikai, Yachimata City, Chiba",
+      "prefecture": 12,
+      "open": "8:00 to 23:00",
+      "tel": "+81-43-440-2311",
+      "visit": "2022-02-12",
+      "url": "https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E5%85%AB%E8%A1%97%E5%BA%97/",
+      "ratings": {
+        "build_scale": "2",
+        "access": "1",
+        "food_court": "1",
+        "favorite": "3"
+      },
+      "comments": [
+        "珍しい一階建てのイオン",
+        "フードコートは4席くらいの飲食スペース",
+        "小さいマックある、賑わってる",
+        "一階建てだけどモーリーファンタジーある"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "AEON Kamagaya",
+      "location": "Shin-kamagaya, Kamagaya City, Chiba",
+      "prefecture": 12,
+      "open": "8:00 to 0:00",
+      "tel": "+81-47-441-7711",
+      "visit": "2022-03-12",
+      "url": "https://www.aeon.com/store/%E3%82%A4%E3%82%AA%E3%83%B3/%E3%82%A4%E3%82%AA%E3%83%B3%E9%8E%8C%E3%83%B6%E8%B0%B7%E5%BA%97/",
+      "ratings": {
+        "build_scale": "3",
+        "access": "4",
+        "food_court": "3",
+        "favorite": "3"
+      },
+      "comments": [
+        "市役所の隣。比較的新し目か",
+        "一階にヤマダが入っている、ノジマじゃないのが珍しい",
+        "フードコートはしっかり席数あり。ファーストキッチンが珍しい",
+        "必要十分、近所にある人はとても羨ましいイオン"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "AEON MALL Ageo",
+      "location": "Atago, Ageo City, Saitama",
+      "prefecture": 11,
+      "open": "8:00 to 22:00",
+      "tel": "+81-48-770-1520",
+      "visit": "2022-04-29",
+      "url": "https://ageo-aeonmall.com/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "3",
+        "food_court": "3",
+        "favorite": "3"
+      },
+      "comments": [
+        "2020年にできたイオンモール",
+        "高崎線上尾駅からバスで数分",
+        "未来屋書店がモダン、昨今の蔦屋書店を意識した作りで、地元の人がおすすめした本など地域密着もある"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "AEON MALL Kawaguchi",
+      "location": "Angyoryo-negishi, Kawaguchi City, Saitama",
+      "prefecture": 11,
+      "open": "8:00 to 23:00",
+      "tel": "+81-48-280-2700",
+      "visit": "2022-05-02",
+      "url": "https://kawaguchi-aeonmall.com/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "3",
+        "food_court": "4",
+        "favorite": "3"
+      },
+      "comments": [
+        "忘れた"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "AEON MALL Tsuchiura",
+      "location": "Kamitakatsu, Tsuchiura City, Ibaraki",
+      "prefecture": 8,
+      "open": "7:00 to 22:00",
+      "tel": "+81-29-835-8600",
+      "visit": "2022-07-17",
+      "url": "https://www.aeon.jp/sc/tsuchiura/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "3",
+        "food_court": "3",
+        "favorite": "3"
+      },
+      "comments": [
+        "常磐線土浦駅が最寄りで、そこからバスで10分程度",
+        "標準的なイオンモール",
+        "フードやレストラン街は定番どころが揃っている",
+        "建物の規模の割に未来屋書店がでかい",
+        "併設されたカフェ・ド・クリエがすいていてグッド",
+        "地域の憩いの場"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "AEON MALL Tonami",
+      "location": "Nakagami, Tonami City, Toyama",
+      "prefecture": 16,
+      "open": "9:00 to 23:00",
+      "tel": "+81-763-32-8800",
+      "visit": "2022-09-18",
+      "url": "https://tonami-aeonmall.com/",
+      "ratings": {
+        "build_scale": "3",
+        "access": "4",
+        "food_court": "3",
+        "favorite": "3"
+      },
+      "comments": [
+        "キッズ共和国が充実",
+        "フードコートはいたって普通。スパイス共和国が少し気になる"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "AEON MALL Suzuka",
+      "location": "Shonohayama, Suzuka City, Mie",
+      "prefecture": 24,
+      "open": "9:00 to 23:00",
+      "tel": "+81-59-375-0666",
+      "visit": "2022-10-23",
+      "url": "https://suzuka-aeonmall.com/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "4",
+        "food_court": "3",
+        "favorite": "3"
+      },
+      "comments": [
+        "近鉄平田町駅から徒歩10分",
+        "名古屋の影響を受けたおみやげや飲食店。スガキヤもある",
+        "横に広いがテナントは二階までしか入っていない",
+        "三重で二番目に大きい。イオンシネマもあり",
+        "増築を繰り返しているためか複雑な構造をしている"
       ]
     }
   ],
