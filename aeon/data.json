@@ -1605,6 +1605,55 @@
     },
     {
       "id": 74,
+      "name": "(AEON MALL) mozo Wonder City",
+      "location": "Futata-cho, Nishi-ku, Nagoya City, Aichi",
+      "prefecture": 23,
+      "open": "9:00 to 23:00",
+      "tel": "+81-52-506-5600",
+      "visit": "2022-08-06",
+      "url": "https://www.mozo-wondercity.com/",
+      "ratings": {
+        "build_scale": "5",
+        "access": "5",
+        "food_court": "4",
+        "favorite": "4"
+      },
+      "comments": [
+        "イオンモールだけどイオンの名前がない珍しいモール",
+        "国内3本の指に入る売り場面積を誇る",
+        "名古屋地下鉄上小田井駅徒歩 5 分",
+        "メインの棟のほか、シネマ棟、スポーツ棟がある",
+        "メイン棟だけみれば、そこまで大きなモールの感じはしない",
+        "自然を基調にした内装は、多摩平の森を思い出させる",
+        "フードコートは定番どころが多い。席数豊富で安心。一方専門店では名古屋名物ひつまぶしが食べられる",
+        "売り日面積の広さから、幕張新都心やレイクタウンに匹敵する店舗の充実を期待していたが、シネマ棟やスポーツ棟が寄与してのものだった"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "AEON MALL Nagoya Noritake Garden",
+      "location": "Noritake-shinmachi, Nishi-ku, Nagoya City, Aichi",
+      "prefecture": 23,
+      "open": "8:00 to 22:00",
+      "tel": "+81-52-587-2520",
+      "visit": "2022-08-07",
+      "url": "https://nagoya-noritake-garden.aeonmall.com/",
+      "ratings": {
+        "build_scale": "4",
+        "access": "4",
+        "food_court": "4",
+        "favorite": "4"
+      },
+      "comments": [
+        "名古屋市営地下鉄亀島駅から徒歩 5 分程度",
+        "2021年にできた新しいモール。則武の公園に併設している",
+        "オシャレに振っており、TSUTAYAは映える本棚が大人気",
+        "フードコートは独自性があり、専門店も幅広い",
+        "そこまで広いわけではないが、個性的でお気に入りのイオン"
+      ]
+    },
+    {
+      "id": 76,
       "name": "AEON MALL Tonami",
       "location": "Nakagami, Tonami City, Toyama",
       "prefecture": 16,
@@ -1624,7 +1673,7 @@
       ]
     },
     {
-      "id": 75,
+      "id": 77,
       "name": "AEON MALL Suzuka",
       "location": "Shonohayama, Suzuka City, Mie",
       "prefecture": 24,
